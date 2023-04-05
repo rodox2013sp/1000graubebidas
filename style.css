@@ -1,0 +1,573 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #222222;
+
+}
+
+header {
+    background-color: black;
+    height: 120px;
+}
+
+.header {
+    display: flex;
+    margin: auto;
+    max-width: 1100px;
+    height: 120px;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+
+.logo img {
+    width: 300px;
+    margin-top: 80px;
+    transform: rotate(-10deg);
+}
+
+.menu {
+    flex: 1;
+    justify-content: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    list-style: none;
+}
+
+ul {
+    display: flex;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    color: #F3FF06;
+    border-bottom: 5px solid #F3FF06;
+    padding-bottom: 44px;
+}
+
+.cima_gallery {
+    height: 55px;
+}
+
+.departamentos_titulo h1,
+.marcas h1,
+.pedido h1,
+.historia h1 {
+    font-size: 40px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    padding-top: 25px;
+    border-top: 1px solid rgb(95, 89, 89);
+}
+
+.marcas h1 {
+    margin-top: 10px;
+}
+
+.departamentos_titulo {
+    margin-bottom: 30px;
+}
+
+
+.dp_boxx {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    max-width: 1100px;
+    margin: auto;
+    margin-bottom: 0;
+    padding-top: 0;
+
+}
+
+
+
+.dp_discrição_1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    text-align: center;
+    width: 400px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border: 1px solid rgb(95, 89, 89);
+    margin-bottom: 40px;
+}
+
+.dp_discrição_2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    text-align: center;
+    width: 400px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border: 1px solid rgb(95, 89, 89);
+    margin-bottom: 40px;
+}
+
+.dp_discrição_1 img,
+.dp_discrição_2 img {
+    width: 350px;
+    text-align: center;
+
+}
+
+.dp_discrição_1 h1,
+.dp_discrição_2 h1 {
+    font-size: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dp_discrição_1 p,
+.dp_discrição_2 p {
+    font-size: 20px;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: auto;
+}
+
+.cervejas_1,
+.refrigerantes_1,
+.tabacaria_1,
+.variedades_1 {
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+
+
+
+#Bebidas_Quentes {
+    font-size: 40px;
+    padding-top: 25px;
+}
+
+.lista_categorias {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.lista_categorias li {
+    color: #9D9191;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 12px;
+}
+
+#Bebidas_Quentes_box {
+    height: auto;
+}
+
+#box_2 {
+    margin-bottom: 180px;
+}
+
+.txt_conveniencia {
+    margin-top: 25px;
+}
+
+.vinhos_txt {
+    margin-top: 25px;
+}
+
+.marcas {
+    background-color: black;
+}
+
+.marcas_box_pai {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding-top: 20px;
+}
+
+.marcas_box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1100px;
+}
+
+.logo_marcas img {
+    width: 130px;
+    max-width: 1100px;
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-bottom: 26px;
+}
+
+.pedido h1 {
+    margin-top: 0;
+}
+
+.pedido_box_pai {
+    width: 1100px;
+    display: flex;
+    margin: auto;
+    height: 550px;
+
+    border-radius: 100px;
+    margin-top: 20px;
+}
+
+.entregador img {
+    width: 550px;
+    height: 550px;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+}
+
+.pedido_txt {
+    width: 550px;
+    height: 550px;
+    background-color: white;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.pedido_txt h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    margin: 25px;
+    padding-right: 0px;
+    margin-bottom: 25px;
+}
+
+.pedido_txt h2 {
+    color: black;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.pedido_txt a {
+    background-color: black;
+    color: white;
+    padding: 25px 25px;
+    text-decoration: none;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 22px;
+    margin-top: 15px;
+    border-radius: 45px;
+}
+
+.link_pedido {
+    display: flex;
+    justify-content: center;
+}
+
+.pedido_txt a:hover {
+    color: #F3FF06;
+}
+
+.entregador_2 {
+    display: flex;
+    justify-content: center;
+}
+
+.entregador_2 img {
+    width: 250px;
+    margin-top: 20px;
+
+}
+
+.historia_box_pai {
+
+    width: 1100px;
+    display: flex;
+    margin: auto;
+    height: 570px;
+    border-radius: 100px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+
+
+
+}
+
+.historia_img {
+    width: 550px;
+    height: 550px;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+    background-color: white;
+}
+
+.historia_txt {
+    width: 550px;
+    height: 550px;
+    background-color: white;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-color: black;
+}
+
+.historia_sec {
+    border-bottom: 1px solid rgb(95, 89, 89);
+
+}
+
+.historia_img {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.historia_img img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+}
+
+.historia_txt h1 {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.historia_txt p {
+    color: rgb(95, 89, 89);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 30px;
+
+}
+
+footer {
+    height: 120px;
+    background-color: black;
+}
+
+.footer_pai {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.endereço {
+    width: 550px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+address {
+    color: rgb(95, 89, 89);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+
+}
+
+.redes_sociais {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.icones_redes img {
+    width: 75px;
+    height: 75px;
+
+
+}
+
+.facebook,
+.instagran,
+.whatsapp {
+    margin-left: 50px;
+
+}
+
+.indicação {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin-top: -10px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    border-top: 1px solid #9D9191;
+
+}
+
+.indicação a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(95, 89, 89);
+}
+
+span {
+    color: white;
+}
+
+@media (min-width: 580px) and (max-width: 1125px) {
+    .pedido_box_pai {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: auto; 
+        width: 100%;
+    }
+
+    .entregador {
+        margin-bottom: 30px;
+    }
+
+    .historia_box_pai {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: auto; 
+        width: 100%;
+    }
+
+    .historia_img {
+        margin-bottom: 30px;
+    }
+    }
+
+    @media (min-width: 0px) and (max-width: 580px) {
+        .pedido_box_pai {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: auto; 
+            width: 100%;
+        }
+    
+        .entregador {
+            margin-bottom: 30px;
+        }
+    
+        .historia_box_pai {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: auto; 
+            width: 100%;
+        }
+    
+        .historia_img {
+            margin-bottom: 30px;
+        }
+
+        
+        }
+
+
+
+@media (min-width: 0px) and (max-width: 817px) {
+    .h1_mercearia {
+        padding-top: 25px;
+    }
+
+
+
+}
+
+@media (min-width: 0px) and (max-width: 430px) {
+
+    .departamentos_titulo h1,
+    .marcas h1,
+    .pedido h1,
+    .historia h1 {
+        font-size: 20px;
+    }
+
+    .dp_discrição_1 {
+        width: 100%;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .dp_discrição_2 {
+        width: 100%;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .dp_discrição_1 h1,
+    .dp_discrição_2 h1 {
+        font-size: 20px;
+    }
+
+    #Bebidas_Quentes {
+        font-size: 20px;
+    }
+
+    .dp_discrição_1 img,
+    .dp_discrição_2 img {
+        width: 100%;
+    }
+
+    .dp_boxx {
+        display: flex;
+        justify-content: center;
+    }
+
+    .dp_discrição_1 p,
+    .dp_discrição_2 p {
+        font-size: 13px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    .lista_categorias li {
+        font-size: 14px;
+    }
+
+    .logo_marcas img {
+        width: 90px;
+    }
+
+}
